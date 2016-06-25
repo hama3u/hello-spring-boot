@@ -13,5 +13,11 @@
     <div class="item" ><span th:text="${msg}">msg</span></div>
     <div class="item" ><span th:text="${customer.customerName}">customer.customerName</span></div>
 </div>
+<form th:action="@{complete}" th:object="${testForm}" medhod="post">
+    <input type="text" th:field="*{name}" />
+    <input type="submit" value="test送信"/>
+</form>
+
+
 </body>
 </html>
