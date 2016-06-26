@@ -1,1 +1,1 @@
-CREATE TABLE test (name VARCHAR(30));
+CREATE TABLE project (projectId int(11) NOT NULL AUTO_INCREMENT, name VARCHAR(30));
